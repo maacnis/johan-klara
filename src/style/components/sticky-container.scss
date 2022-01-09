@@ -1,0 +1,19 @@
+
+.sticky-container {
+	display: none;	
+}
+
+@media screen and (min-width: 992px) {
+	.sticky-container {
+		display: block;
+		background-color: #fff;
+		pointer-events: none;
+		position: absolute;
+		top: 150%;
+		left: 5%;
+		transform: translateY(calc(var(--ty,0)*-100%));
+		visibility: visible;
+		width: auto;
+		z-index: 2;
+	}
+}

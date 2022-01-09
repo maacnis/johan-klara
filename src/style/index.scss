@@ -1,0 +1,18 @@
+// base
+@import './base/reset.scss';
+@import './base/variables.scss';
+@import './base/button.scss';
+@import './global/app.scss';
+
+// Components
+@import './components/navbar.scss';
+@import './components/hero.scss';
+@import './components/timeline.scss';
+@import './components/sticky-container.scss';
+
+// pages
+@import './pages/home.scss';
+@import './pages/couple.scss';
+@import './pages/weekend.scss';
+@import './pages/weddingparty.scss';
+@import './pages/practical.scss';

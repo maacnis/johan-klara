@@ -1,0 +1,89 @@
+.hero {
+	position: relative;
+	display: grid;
+	height: 100vh;
+}
+
+.hero__img {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	grid-column: 1/-1;
+	grid-row: 1/-1;
+
+	img {
+		height: 100%;
+		position: absolute;
+		left: 4%;
+		bottom: 0;
+		transform: translateX(-4%);
+	}
+
+	&::after {
+		--hero-ratio: 0.5;
+		content: "";
+		display: block;
+		padding-top: calc(var(--hero-ratio)*100%)
+	}
+}
+
+.hero__content {
+	position: relative;
+	display: grid;
+	grid-column: 1/-1;
+	grid-row: 1/-1;
+	z-index: 4;
+	align-content: center;
+	justify-items: center;
+
+	.hero__arrow {
+		animation: MoveUpDown 4s ease-in-out infinite;
+		position: absolute;
+		bottom: 0;
+	}
+}
+
+.hero__emblem {
+	width: 75%;
+}
+
+@keyframes MoveUpDown {
+	0%, 100% {
+		bottom: 0;
+	}
+	50% {
+		bottom: 25px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.hero__img {
+		margin: 0;
+		overflow: hidden;
+		padding: 0;
+		position: relative;
+		grid-column: 1/-1;
+		grid-row: 1/-1;
+	
+		img {
+			height: 100%;
+			position: absolute;
+			width: 100%;
+			left: 0;
+			bottom: 0;
+			transform: translateX(0);
+		}
+	
+		&::after {
+			--hero-ratio: 0.5;
+			content: "";
+			display: block;
+			padding-top: calc(var(--hero-ratio)*100%)
+		}
+	}
+
+	.hero__emblem {
+		width: 30rem;
+	}
+}

@@ -1,0 +1,50 @@
+.bridalparty__header {
+	margin-bottom: 2rem;
+}
+
+.bridalparty__members {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+}
+
+.bridalparty__member {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	column-gap: 2rem;
+	border: 1px solid $lightgreen;
+	border-radius: 5px;
+	padding: 2rem;
+}
+
+.bridalparty__information {
+	p,
+	h3 {
+		text-align: left;
+	}
+}
+
+.member__img {
+	width: 75%;
+	margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+	.bridalparty__members {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		row-gap: 1rem;
+		column-gap: 1rem;
+	}
+
+	.bridalparty__member {
+		flex-direction: row;
+		align-items: flex-start;
+	}
+
+	.member__img {
+		width: 250px;
+		margin-bottom: 0;
+	}
+}

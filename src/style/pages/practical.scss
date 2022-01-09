@@ -1,0 +1,26 @@
+.practical-information__header {
+	margin-bottom: 2rem;
+}
+
+.practical-cards {
+	display: grid;
+	grid-template-columns: 1fr;
+	row-gap: 1rem;
+	margin: 0px auto;
+}
+
+.practical-card {
+	border: 1px solid $lightgreen;
+	border-radius: 5px;
+	padding: 2rem;
+}
+
+@media screen and (min-width: 992px) {
+	.practical-cards {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 3rem;
+		row-gap: 3rem;
+		margin: 0px auto;
+	}
+}

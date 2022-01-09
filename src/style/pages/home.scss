@@ -1,0 +1,49 @@
+.home {
+	display: contents;
+
+	.hero {
+		grid-area: hero;
+	}
+
+	.home__content {
+		display: grid;
+		grid-template-areas: 
+			"image"
+			"content";
+		margin: 0px auto;
+		margin-top: 2rem;
+		padding: 0 1rem;
+	}
+
+	.home__text {
+		grid-area: content;
+		margin-top: 1rem;
+
+		p {
+			text-align: left;
+		}
+	}
+
+	.home__img {
+		grid-area: image;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.home {
+		.home__content {
+			grid-template-areas: "content image";
+			height: calc(100vh - 52px - 2rem);
+			width: 80%;
+		}
+	}
+
+	.home__text {
+		padding: 9rem;
+	}
+
+	.home__img {
+		width: 500px;
+	}
+}
