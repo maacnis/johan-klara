@@ -1,4 +1,5 @@
 {
+  "homepage": "https://maacnis.github.io/johan-klara",
   "name": "johan-klara",
   "version": "0.1.0",
   "private": true,
@@ -7,6 +8,7 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.6.3",
     "basicscroll": "^3.0.4",
+    "gh-pages": "^3.2.3",
     "prop-types": "^15.8.1",
     "react": "^17.0.1",
     "react-accessible-accordion": "^4.0.0",
@@ -20,6 +22,8 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
+	"predeploy": "yarn run build",
+	"deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
