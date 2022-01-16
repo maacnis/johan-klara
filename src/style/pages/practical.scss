@@ -13,10 +13,6 @@
 	border: 1px solid $lightgreen;
 	border-radius: 5px;
 	padding: 2rem;
-
-	&.span-2 {
-		grid-column: span 2;
-	}
 }
 
 @media screen and (min-width: 992px) {
@@ -26,5 +22,11 @@
 		column-gap: 3rem;
 		row-gap: 3rem;
 		margin: 0px auto;
+	}
+
+	.practical-card {
+		&.span-2 {
+			grid-column: span 2;
+		}
 	}
 }
