@@ -26,7 +26,8 @@
 }
 
 .member__img {
-	width: 100%;
+	width: auto;
+	height: 300px;
 	margin-bottom: 1rem;
 }
 
@@ -45,6 +46,7 @@
 
 	.member__img {
 		width: 250px;
+		height: auto;
 		margin-bottom: 0;
 	}
 }
