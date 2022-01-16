@@ -33,7 +33,7 @@ class weekend extends Component {
 					</div>
 					<div className="weekend__card weekend__dresscode">
 						<h2>{data[0].weekend.dresscodeHeader}</h2>
-						<h3>{data[0].weekend.dresscodeSubHeader}</h3>
+						<h3>{data[0].weekend.dresscodeSubPreabmle}</h3>
 						<h4>{data[0].weekend.dresscodeHimHeader}</h4>
 						<p>{data[0].weekend.dresscodeHimText}</p>
 						<h4>{data[0].weekend.dresscodeHerHeader}</h4>
