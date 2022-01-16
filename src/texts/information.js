@@ -92,7 +92,7 @@ const data = [
 				{
 					"id": 5,
 					"date": "16 juni- 22 juni 2015",
-					"text": "Klaras första vistelse i Upplands Väsby. Får träffa samtliga meddelar i familjen Svensson och besöker Timrarö en regnig midsommarafton.",
+					"text": "Klaras första vistelse i Upplands Väsby. Får träffa samtliga medlemmar i familjen Svensson och besöker Timrarö en regnig midsommarafton.",
 					"image": timeline2
 				},
 				{

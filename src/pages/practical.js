@@ -24,7 +24,7 @@ class practical extends Component {
 					<div className={"practical-card " + (data[0].practical.weddigGiftsShow ? '' : 'span-2')}>
 						<h2>{data[0].practical.livingHeader}</h2>
 						<p>{data[0].practical.livingText}</p>
-						<a href={"//" + data[0].practical.livingTextLink}>{data[0].practical.livingTextLink}</a>
+						<a href={"http://" + data[0].practical.livingTextLink}>{data[0].practical.livingTextLink}</a>
 						<p>{data[0].practical.livingText2}</p>
 					</div>
 					{data[0].practical.weddigGiftsShow && 
