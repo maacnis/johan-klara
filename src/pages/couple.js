@@ -15,7 +15,7 @@ class couple extends Component {
 		},
 	}
 	return (
-		<div>
+		<div className="couple">
 			<h1 className="couple__header">{data[0].couple.coupleHeader}</h1>
 			<div className="sticky-container">
 				<ReactBasicScroll config={config}>
@@ -27,7 +27,7 @@ class couple extends Component {
 			<div className="timeline">
 				{data[0].couple.timeline.map((date) => {
 					return (
-						<div key={date.id} className="timeline__event" date-is={date.date}>
+						<div key={date.id} className={"timeline__event " + (date.image2 ? 'has-second-image' : '')} date-is={date.date}>
 							<div className="timeline__content">
 								<p className="timeline__text">{date.text}</p>
 								{date.image &&

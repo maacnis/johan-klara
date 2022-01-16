@@ -5,8 +5,7 @@ import Couple from '../pages/couple';
 import Practical from '../pages/practical';
 import Weekend from '../pages/weekend';
 import weddingParty from "../pages/weddingparty";
-
-
+import covid from "../pages/covid";
 
 class Container extends Component {
     render() {
@@ -18,6 +17,7 @@ class Container extends Component {
 					<Route path='/practical' component={Practical} />
 					<Route path='/weekend' component={Weekend} />
 					<Route path='/weddingparty' component={weddingParty} />
+					<Route path='/covid' component={covid} />
 				</Switch>
 			</div>
 		)

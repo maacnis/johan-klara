@@ -29,29 +29,35 @@ iframe {
 }
 
 .site {
-	background-color: #fffff7;
+	background-color: $background-color;
 	color: $link-color;
 	text-align: center;
 	display: grid;
-	grid-template-rows: auto 1fr auto;
-	grid-template-areas:
+	grid-template:
 		'hero'
-		'header'
-		'content'
-		'footer';
+		'header' 1fr
+		'content';
 }
 
 .container {
 	display: block;
 	grid-area: content;
 	margin: 0px auto;
-	margin-top: 2rem;
-	margin-bottom: 3rem;
+	min-height: calc(100vh - 53px);
 	padding: 0 1rem;
 
 	.is-home & {
 		display: contents;
 	}
+}
+
+.couple,
+.bridalparty,
+.covid-information,
+.weekend-information,
+.practical-information {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
 }
 
 .home__content {
@@ -75,8 +81,6 @@ ul {
 		display: block;
 		grid-area: content;
 		margin: 0px auto;
-		margin-top: 3rem;
-		margin-bottom: 5rem;
 		width: 80%;
 	
 		.is-home & {

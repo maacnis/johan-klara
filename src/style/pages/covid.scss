@@ -1,0 +1,21 @@
+.covid-information {
+	margin-right: 6rem;
+	margin-left: 6rem;
+}
+
+.covid-information__header {
+	margin-bottom: 2rem;
+}
+
+.covid-cards {
+	display: grid;
+	grid-template-columns: 1fr;
+	row-gap: 1rem;
+	margin: 0px auto;
+}
+
+.covid-card {
+	border: 1px solid $lightgreen;
+	border-radius: 5px;
+	padding: 2rem;
+}

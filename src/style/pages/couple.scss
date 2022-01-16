@@ -1,3 +1,34 @@
+.has-second-image {
+	.timeline__content {
+		display: grid;
+		grid-template-areas: 
+			"text text"
+			"image1 image2";
+		column-gap: 0.5rem;
+	}
+
+	.timeline__text {
+		grid-area: text;
+	}
+
+	.timeline__img--first {
+		grid-area: image1;
+		justify-self: end;
+	}
+
+	.timeline__img--second {
+		grid-area: image2;
+	}
+}
+
 .couple__header {
 	margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 992px) {
+	.has-second-image {
+		.timeline__img {
+			width: auto;
+		}
+	}
 }

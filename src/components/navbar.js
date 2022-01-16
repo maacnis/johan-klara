@@ -46,6 +46,7 @@ class Navbar extends Component {
 					<NavLink to={'/practical'} exact className="nav__link" activeClassName="selected">Praktisk information</NavLink>
 					<NavLink to={'/couple'} exact className="nav__link" activeClassName="selected">Brudparet</NavLink>
 					<NavLink to={'/weddingparty'} exact className="nav__link" activeClassName="selected">Brudföljet</NavLink>
+					<NavLink to={'/covid'} exact className="nav__link" activeClassName="selected">Covid-19</NavLink>
 				</div>
 			</nav>
 		);

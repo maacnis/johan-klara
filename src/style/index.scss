@@ -1,18 +1,19 @@
 // base
-@import './base/reset.scss';
-@import './base/variables.scss';
-@import './base/button.scss';
-@import './global/app.scss';
+@import './base/reset';
+@import './base/variables';
+@import './base/button';
+@import './global/app';
 
 // Components
-@import './components/navbar.scss';
-@import './components/hero.scss';
-@import './components/timeline.scss';
-@import './components/sticky-container.scss';
+@import './components/navbar';
+@import './components/hero';
+@import './components/timeline';
+@import './components/sticky-container';
 
 // pages
-@import './pages/home.scss';
-@import './pages/couple.scss';
-@import './pages/weekend.scss';
-@import './pages/weddingparty.scss';
-@import './pages/practical.scss';
+@import './pages/home';
+@import './pages/couple';
+@import './pages/weekend';
+@import './pages/weddingparty';
+@import './pages/practical';
+@import './pages/covid';

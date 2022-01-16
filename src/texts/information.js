@@ -3,6 +3,8 @@ import sebastian from '../static/img/party/sebastian.jpg';
 import antonio from '../static/img/party/antonio.jpg';
 import johannaL from '../static/img/party/johanna_lundsgard.jpg';
 import johannaE from '../static/img/party/johanna_erensjo.jpg';
+import fredrik from '../static/img/party/fredrik.jpg';
+import sara from '../static/img/party/sara.jpg';
 import helloImg from '../static/img/timeline/1.jpg';
 import timeline1 from '../static/img/timeline/2.jpg';
 import timeline2 from '../static/img/timeline/3.jpg';
@@ -48,7 +50,7 @@ const data = [
 		"practical": {
 			"practicalHeader": "Praktisk information",
 			"osaHeader": "OSA.",
-			"osaText": "Sker via mail till",
+			"osaText": "Sker senast 20 mars via mail till",
 			"osaEmail": "johan@johansvensson.eu",
 			"osaText2": "Kom ihåg att meddela eventuella matpreferenser, samt om ni önskar delta även på fredagen.",
 			"speechHeader": "Anmälan tal och spex",
@@ -59,6 +61,7 @@ const data = [
 			"livingText": "På området finns ett vandrarhem för 50 personer. Priset per natt är 500 kr/person inkl. frukost, sängkläder och handduk. Först till kvarn gäller och gäster som önskar stanna två nätter (fredag - söndag) prioriteras. Det finns även en camping för gäster som önskar bo i egen husvagn eller husbil. Boende på vandrarhem bokas via brudparet, camping bokas via ",
 			"livingTextLink": "www.jonstorp.com/camping",
 			"livingText2": "Utöver detta finns det runt om på Kullahalvön flera andra boenden att välja emellan.",
+			"weddigGiftsShow": false,
 			"weddingGiftsHeader": "Bröllopspresenter",
 			"weddingGiftsText": "TBA"
 		},
@@ -75,7 +78,7 @@ const data = [
 				{
 					"id": 2,
 					"date": "12 mars 2015",
-					"text": "Första dejten hemma hos Johan i korridoren på Delphi. Johan överraskar med en chokladask då Klara fyllde 23 år dagen innan. Det bakas pizza och tittades på Disneyfilmer."
+					"text": "Första dejten hemma hos Johan i korridoren på Delphi. Johan överraskar med en chokladask då Klara fyllde 23 år dagen innan. Det bakas pizza och tittas på Disneyfilmer, klassiskt Klara move."
 				},
 				{
 					"id": 3,
@@ -85,7 +88,7 @@ const data = [
 				{
 					"id": 4,
 					"date": "16 maj 2015",
-					"text": "Brudparet blir under en ny 25-årsfest utfrågade på varsitt håll om de kära i varandra. Diskussion om är ihop eller inte uppstår. Klara är inte nöjd med att en utfrågning ska vara avgörandet. Hon planerar i förväg att 7 juni ska bli brudparets årsdag eftersom examensfest ska hållas och Johan kan då presenteras som hennes pojkvän inför släkt och vänner. (Finns också ett symboliskt värde i att 100 dagar passerat sen att brudparet sågs första gången vilket Klara nyttjar)"
+					"text": "Brudparet blir under en ny 25-årsfest utfrågade på varsitt håll om de kära i varandra. Diskussion om är ihop eller inte uppstår. Klara är inte nöjd med att en utfrågning ska vara avgörandet. Hon planerar i förväg att 7 juni ska bli brudparets årsdag eftersom examensfest ska hållas och Johan kan då presenteras som hennes pojkvän inför släkt och vänner."
 				},
 				{
 					"id": 5,
@@ -106,13 +109,13 @@ const data = [
 				{
 					"id": 8,
 					"date": "23 juni 2015 - 19 augusti 2015",
-					"text": "Johan börjar sin resa mot Peking via Transsibiriska järnvägen. Begränsad kontakt med Klara hemma i Sverige. Brudparet återförenas i Lund. Klara överlämnar den röda kärleksdagboken som hon skrivit i hemligt till Johan sedan de varit åtskilda.",
+					"text": "Johan börjar sin resa mot Peking via Transsibiriska järnvägen. Begränsad kontakt med Klara hemma i Sverige. Efter 8 veckor frånskilda återförenas brudparet i Lund. Klara överlämnar den röda kärleksdagboken som hon skrivit i hemligt till Johan sedan de varit åtskilda.",
 					"image": timeline3
 				},
 				{
 					"id": 9,
 					"date": "10 okt 2015",
-					"text": "Klara (tillsammas med katter) flyttar in i sin första lägenhet Möllebäcksgatan 8 i Hbg på Johans 23 årsdag."
+					"text": "Klara (tillsammas med katter) flyttar in i sin första lägenhet Möllebäcksgatan i Helsingborg på Johans 23 årsdag."
 				},
 				{
 					"id": 10,
@@ -187,15 +190,22 @@ const data = [
 					"id": 5,
 					"name": "Fredrik Broberg",
 					"role": "Toastmaster",
-					"background": "Förmodligen på pappret Skånes bästa toastmaster, då han har varit i Dubai och studerat det (Hospitality management). Då Fredrik är en riktig livsnjutare får hans Volvo slita hårt när det kryssas mellan mysiga fik och skånska sevärdheter. Malmöit i blodet som efter en utsväng hela vägen till Lund, nu hittat tillbaka till sitt Malmö tillsammans med Sara."
+					"background": "Förmodligen på pappret Skånes bästa toastmaster, då han har varit i Dubai och studerat det (Hospitality management). Då Fredrik är en riktig livsnjutare får hans Volvo slita hårt när det kryssas mellan mysiga fik och skånska sevärdheter. Malmöit i blodet som efter en utsväng hela vägen till Lund, nu hittat tillbaka till sitt Malmö tillsammans med Sara.",
+					"image": fredrik
 				},
 				{
 					"id": 6,
 					"name": "Sara Erixon",
 					"role": "Toastmadame",
-					"background": "Vän sedan sjuksköterskeprogrammet i Lund. Lämnat trygga Lund för ett liv i Malmö. En av Vivinos aktivaste användare som inte låter ett vin gå obemärkt förbi. Fikagourmand utom dess like och vet hur en utmärkt kopp kaffe ska smaka. En kvinna som håller lugnet i stressade situationer, vilket känns som helt rätt egenskap i detta sammanhang."
+					"background": "Vän sedan sjuksköterskeprogrammet i Lund. Lämnat trygga Lund för ett liv i Malmö. En av Vivinos aktivaste användare som inte låter ett vin gå obemärkt förbi. Fikagourmand utom dess like och vet hur en utmärkt kopp kaffe ska smaka. En kvinna som håller lugnet i stressade situationer, vilket känns som helt rätt egenskap i detta sammanhang.",
+					"image": sara
 				}
 			]
+		},
+		"covid": {
+			"covidHeader": "Covid-19",
+			"covidText": "Vi hoppas och arbetar för att kunna genomföra vårt bröllop som planerat med alla vänner och släkt på  plats. Under våren följer vi utvecklingen noga och justerar upplägget om situationen så skulle kräva. Genom att O.S.A. på inbjudan underlättar ni vår planering och kommunikation till er.",
+			"covidSubText": "Fortsätt tvätta händerna så ses vi med största sannolikhet i maj."
 		}
 	}
 ]
