@@ -60,9 +60,9 @@ const data = [
 			"livingText": "På området finns ett vandrarhem för 50 personer. Priset per natt är 500 kr/person inkl. frukost, sängkläder och handduk. Först till kvarn gäller och gäster som önskar stanna två nätter (fredag - söndag) prioriteras. Det finns även en camping för gäster som önskar bo i egen husvagn eller husbil. Boende på vandrarhem bokas via brudparet, camping bokas via ",
 			"livingTextLink": "www.jonstorp.com/camping",
 			"livingText2": "Utöver detta finns det runt om på Kullahalvön flera andra boenden att välja emellan.",
-			"weddigGiftsShow": false,
+			"weddigGiftsShow": true,
 			"weddingGiftsHeader": "Bröllopspresenter",
-			"weddingGiftsText": "TBA"
+			"weddingGiftsText": "Det viktigaste för oss är att ni kommer och förgyller vår stora dag, ni är många som rest långt för att fira tillsammans. Vill ni ändå ge en gåva uppskattar vi presentkort hos “Svenssons i Lammhult”. För att undvika att vi behöver sova i bakluckan på en Saab under vår bröllopsresa, så är bidrag till denna även ett uppskattat alternativ."
 		},
 		"couple": {
 			"coupleHeader": "Om brudparet",
